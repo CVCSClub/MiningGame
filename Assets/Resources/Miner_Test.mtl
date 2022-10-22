@@ -1,0 +1,18 @@
+# Made in Blockbench 4.4.2
+newmtl m_0
+map_Kd Head.png 
+newmtl m_1
+map_Kd Visor.png 
+newmtl m_2
+map_Kd Body.png 
+newmtl m_3
+map_Kd ArmL.png 
+newmtl m_4
+map_Kd ArmR.png 
+newmtl m_5
+map_Kd LegR.png 
+newmtl m_6
+map_Kd LegL.png 
+newmtl m_7
+map_Kd BackPack.png 
+newmtl none
