@@ -38,7 +38,7 @@ public class Player : MonoBehaviour, Hittable
 
     void FixedUpdate() {
         Vector2 TargetMoveVector = (Vector2)transform.position + (MoveVector.normalized * Speed * Time.fixedDeltaTime);
-        Body.MovePosition(new Vector3(TargetMoveVector.x, 0f, TargetMoveVector.y));
+        Body.MovePosition(new Vector3(TargetMoveVector.x, transform.position.y, TargetMoveVector.y));
     }
 
     public void Hit(int Damage, Vector2 Direction) {
